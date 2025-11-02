@@ -14,19 +14,14 @@ class Help(commands.Cog):
         )
 
         embed.add_field(
-            name="💰 通貨・報酬システム",
+            name="未設定システム",
             value=(
-                "/daily … 20時間おきにログインボーナスを受け取る\n"
-                "/give_coin user: price: … 指定ユーザーにコインを渡す\n"
-                "/work … 仕事をしてコインと経験値を獲得（4時間ごと）\n"
-                "/bank withdraw amount: … 銀行から出金（手数料あり）\n"
-                "/profile … 所持金・銀行残高・職業レベルを確認\n"
-                "/dollar … コインとドルのレート表示、交換可能"
+                "/？？？ … いいよこいよ！\n"
             ),
             inline=False
         )
 
-        embed.set_footer(text="SakuBor v0.1β対応")
+        embed.set_footer(text="HGHomeBot v0.1β対応")
 
         await interaction.response.send_message(embed=embed)
 
