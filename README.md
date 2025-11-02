@@ -1,6 +1,5 @@
-# 📢 SakuBot v0.1β
-DiscordでRPGを楽しむためのBotです。  
-EpicRPGの上を目指しております()
+# 📢 NewHGHomeBot v0.1β
+Discordをより便利にし楽しむためのBotです。  
 
 ---
 
